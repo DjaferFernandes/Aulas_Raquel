@@ -47,46 +47,6 @@ public class Agenda {
             }
         } while (decisão == 5);
 
-
-
-        /*
-        //Arrays
-        int inicializador = 10;
-        String[] nomes = new String[inicializador];
-        String[] email = new String[inicializador];
-        String[] numero = new String[inicializador];
-        int proxPosLivre = 0;
-        //adionar contato
-        int decisão = 0;
-        while (decisão == 0){
-            System.out.println("Oq deseja fazer?");
-            decisão = Integer.parseInt(sc.nextLine());
-            if (decisão == 1) {
-                System.out.println("nome");
-                nomes[proxPosLivre] = sc.nextLine();
-                System.out.println("Email");
-                email[proxPosLivre] = sc.nextLine();
-                System.out.println("numero");
-                numero[proxPosLivre] = sc.nextLine();
-                proxPosLivre++;
-                decisão = 0;
-            }
-            else if(decisão == 2){
-                for (int i = 0; i < nomes.length; i++){
-                    if (nomes[i] != null){
-                        System.out.println(nomes[i]);
-                    }
-                }
-                decisão = 0;
-            }
-            System.out.println("Deu ruim");
-            sc.close();
-        }
-
-        // buscar contato
-
-
-         */
     }
 
 }
